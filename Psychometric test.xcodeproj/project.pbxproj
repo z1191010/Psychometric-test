@@ -1,0 +1,391 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		414FB14B29B9DA3900921224 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 414FB14A29B9DA3900921224 /* AppDelegate.swift */; };
+		414FB14D29B9DA3900921224 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 414FB14C29B9DA3900921224 /* SceneDelegate.swift */; };
+		414FB15229B9DA3900921224 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 414FB15029B9DA3900921224 /* Main.storyboard */; };
+		414FB15429B9DA3A00921224 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 414FB15329B9DA3A00921224 /* Assets.xcassets */; };
+		414FB15729B9DA3A00921224 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 414FB15529B9DA3A00921224 /* LaunchScreen.storyboard */; };
+		414FB15F29B9DC0B00921224 /* IndexViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 414FB15E29B9DC0B00921224 /* IndexViewController.swift */; };
+		414FB16129B9DC1500921224 /* TestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 414FB16029B9DC1500921224 /* TestViewController.swift */; };
+		414FB16329B9DC2300921224 /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 414FB16229B9DC2300921224 /* ResultViewController.swift */; };
+		414FB16529BA2E2900921224 /* Question.swift in Sources */ = {isa = PBXBuildFile; fileRef = 414FB16429BA2E2900921224 /* Question.swift */; };
+		414FB16C29BB250B00921224 /* ChenYuluoyan-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 414FB16A29BB250A00921224 /* ChenYuluoyan-Thin.ttf */; };
+		414FB16D29BB250B00921224 /* HanyiSentyPine.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 414FB16B29BB250A00921224 /* HanyiSentyPine.ttf */; };
+		414FB17029BB93B000921224 /* 恐怖情人.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 414FB16E29BB93AF00921224 /* 恐怖情人.mp4 */; };
+		414FB17129BB93B000921224 /* 專屬天使.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 414FB16F29BB93B000921224 /* 專屬天使.mp4 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		414FB14729B9DA3900921224 /* Psychometric test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Psychometric test.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		414FB14A29B9DA3900921224 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		414FB14C29B9DA3900921224 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		414FB15129B9DA3900921224 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		414FB15329B9DA3A00921224 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		414FB15629B9DA3A00921224 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		414FB15829B9DA3A00921224 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		414FB15E29B9DC0B00921224 /* IndexViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IndexViewController.swift; sourceTree = "<group>"; };
+		414FB16029B9DC1500921224 /* TestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestViewController.swift; sourceTree = "<group>"; };
+		414FB16229B9DC2300921224 /* ResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultViewController.swift; sourceTree = "<group>"; };
+		414FB16429BA2E2900921224 /* Question.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Question.swift; sourceTree = "<group>"; };
+		414FB16A29BB250A00921224 /* ChenYuluoyan-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ChenYuluoyan-Thin.ttf"; sourceTree = "<group>"; };
+		414FB16B29BB250A00921224 /* HanyiSentyPine.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = HanyiSentyPine.ttf; sourceTree = "<group>"; };
+		414FB16E29BB93AF00921224 /* 恐怖情人.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "恐怖情人.mp4"; sourceTree = "<group>"; };
+		414FB16F29BB93B000921224 /* 專屬天使.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "專屬天使.mp4"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		414FB14429B9DA3900921224 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		414FB13E29B9DA3900921224 = {
+			isa = PBXGroup;
+			children = (
+				414FB14929B9DA3900921224 /* Psychometric test */,
+				414FB14829B9DA3900921224 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		414FB14829B9DA3900921224 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				414FB14729B9DA3900921224 /* Psychometric test.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		414FB14929B9DA3900921224 /* Psychometric test */ = {
+			isa = PBXGroup;
+			children = (
+				414FB14A29B9DA3900921224 /* AppDelegate.swift */,
+				414FB14C29B9DA3900921224 /* SceneDelegate.swift */,
+				414FB15029B9DA3900921224 /* Main.storyboard */,
+				414FB16429BA2E2900921224 /* Question.swift */,
+				414FB15E29B9DC0B00921224 /* IndexViewController.swift */,
+				414FB16029B9DC1500921224 /* TestViewController.swift */,
+				414FB16229B9DC2300921224 /* ResultViewController.swift */,
+				414FB15329B9DA3A00921224 /* Assets.xcassets */,
+				414FB15529B9DA3A00921224 /* LaunchScreen.storyboard */,
+				414FB15829B9DA3A00921224 /* Info.plist */,
+				414FB16A29BB250A00921224 /* ChenYuluoyan-Thin.ttf */,
+				414FB16B29BB250A00921224 /* HanyiSentyPine.ttf */,
+				414FB16F29BB93B000921224 /* 專屬天使.mp4 */,
+				414FB16E29BB93AF00921224 /* 恐怖情人.mp4 */,
+			);
+			path = "Psychometric test";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		414FB14629B9DA3900921224 /* Psychometric test */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 414FB15B29B9DA3A00921224 /* Build configuration list for PBXNativeTarget "Psychometric test" */;
+			buildPhases = (
+				414FB14329B9DA3900921224 /* Sources */,
+				414FB14429B9DA3900921224 /* Frameworks */,
+				414FB14529B9DA3900921224 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Psychometric test";
+			productName = "Psychometric test";
+			productReference = 414FB14729B9DA3900921224 /* Psychometric test.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		414FB13F29B9DA3900921224 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					414FB14629B9DA3900921224 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+				};
+			};
+			buildConfigurationList = 414FB14229B9DA3900921224 /* Build configuration list for PBXProject "Psychometric test" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 414FB13E29B9DA3900921224;
+			productRefGroup = 414FB14829B9DA3900921224 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				414FB14629B9DA3900921224 /* Psychometric test */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		414FB14529B9DA3900921224 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				414FB17129BB93B000921224 /* 專屬天使.mp4 in Resources */,
+				414FB17029BB93B000921224 /* 恐怖情人.mp4 in Resources */,
+				414FB15729B9DA3A00921224 /* LaunchScreen.storyboard in Resources */,
+				414FB16C29BB250B00921224 /* ChenYuluoyan-Thin.ttf in Resources */,
+				414FB16D29BB250B00921224 /* HanyiSentyPine.ttf in Resources */,
+				414FB15429B9DA3A00921224 /* Assets.xcassets in Resources */,
+				414FB15229B9DA3900921224 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		414FB14329B9DA3900921224 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				414FB16129B9DC1500921224 /* TestViewController.swift in Sources */,
+				414FB14B29B9DA3900921224 /* AppDelegate.swift in Sources */,
+				414FB14D29B9DA3900921224 /* SceneDelegate.swift in Sources */,
+				414FB16529BA2E2900921224 /* Question.swift in Sources */,
+				414FB15F29B9DC0B00921224 /* IndexViewController.swift in Sources */,
+				414FB16329B9DC2300921224 /* ResultViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		414FB15029B9DA3900921224 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				414FB15129B9DA3900921224 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		414FB15529B9DA3A00921224 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				414FB15629B9DA3A00921224 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		414FB15929B9DA3A00921224 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		414FB15A29B9DA3A00921224 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		414FB15C29B9DA3A00921224 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Y4BPBYLC6X;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Psychometric test/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mkw.Psychometric-test";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		414FB15D29B9DA3A00921224 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Y4BPBYLC6X;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Psychometric test/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mkw.Psychometric-test";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		414FB14229B9DA3900921224 /* Build configuration list for PBXProject "Psychometric test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				414FB15929B9DA3A00921224 /* Debug */,
+				414FB15A29B9DA3A00921224 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		414FB15B29B9DA3A00921224 /* Build configuration list for PBXNativeTarget "Psychometric test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				414FB15C29B9DA3A00921224 /* Debug */,
+				414FB15D29B9DA3A00921224 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 414FB13F29B9DA3900921224 /* Project object */;
+}
